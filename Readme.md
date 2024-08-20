@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new historicaleventsQueryOptions {
+var queryOptions = new HistoricalEventsQueryOptions {
   text = "moon landing"
 };
 ```
@@ -154,7 +154,8 @@ if(response.error != null) {
         "granularity": "year"
       }
     ]
-  }
+  },
+  "code": 200
 }
 ```
 
